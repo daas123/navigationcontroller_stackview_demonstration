@@ -21,8 +21,18 @@ class AViewController: UIViewController {
     }
     
     @IBAction func Aviewpresent(_ sender: UIButton) {
+//        let vc =  BViewController(nibName: "BViewController", bundle: nil)
+//        let navcontroller = UINavigationController(rootViewController: vc)
+//        navcontroller.modalPresentationStyle = .fullScreen
+//        self.present(vc, animated: true , completion: nil)
         let vc =  BViewController(nibName: "BViewController", bundle: nil)
-        present(vc, animated: true , completion: nil)
+        let navController = UINavigationController(rootViewController: vc)
+        navController.modalPresentationStyle  = .fullScreen
+        
+//        self.present(navController, animated: true)
+//        let vc = BViewController(nibName: "BViewController", bundle: nil)
+        self.present(navController, animated: true)
+        
     }
     
     /*

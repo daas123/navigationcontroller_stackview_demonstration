@@ -23,7 +23,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                     <connections>
-                        <action selector="dviewbutton:" destination="-1" eventType="touchUpInside" id="0pS-Aw-rmL"/>
+                        <action selector="dbutton:" destination="-1" eventType="touchUpInside" id="McA-QR-yGL"/>
                     </connections>
                 </button>
             </subviews>
@@ -33,7 +33,7 @@
                 <constraint firstItem="zCt-vA-Iaf" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Sri-sW-Xe7"/>
                 <constraint firstItem="zCt-vA-Iaf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Vj0-y4-9YZ"/>
             </constraints>
-            <point key="canvasLocation" x="123" y="20"/>
+            <point key="canvasLocation" x="122.90076335877862" y="19.718309859154932"/>
         </view>
     </objects>
     <resources>

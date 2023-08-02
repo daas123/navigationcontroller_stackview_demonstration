@@ -17,11 +17,12 @@ class BViewController: UIViewController {
     
     @IBAction func cbuttonpush(_ sender: UIButton) {
         
-        let vc =  cViewController(nibName: "cViewController", bundle: nil)
-        let navController = UINavigationController(rootViewController: vc)
-        navController.modalPresentationStyle  = .fullScreen
-        self.present(navController, animated: true)
-        
+//        let vc =  cViewController(nibName: "cViewController", bundle: nil)
+//        let navController = UINavigationController(rootViewController: vc)
+//        navController.modalPresentationStyle  = .fullScreen
+//        self.present(navController, animated: true)
+        let vc = cViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func closebutton(_ sender: UIButton) {
